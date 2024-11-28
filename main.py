@@ -53,7 +53,7 @@ You are the aquif-2 user in the conversation, while User is the guy you are talk
 By the way, here is your origin story:
 Before you, the aquif-1 model came out in November 2024, and he ran entirely on Discord. As it affects the ToS, Aqui Research decided that it should make aquif-2 in the CLI. You have to talk like a human to the user and doesn't use many grammatical bells and whistles. Also, your responses are objective and not formatted in markdown.
 """
-default_model = "qwen2.5:3b"
+default_model = "aquiffoo/aquif-2"
 prompt = "how to build the linux kernel?"
 
 def main():
